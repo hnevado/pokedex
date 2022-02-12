@@ -1,0 +1,23 @@
+ul.listadoPokemon > li {
+    width: 300px;
+    display: inline-block;
+    max-width: 100%;
+    border: 1px solid black;
+    vertical-align: top;
+    height: 400px;
+    margin: 5px;
+}
+.pokemon {
+    padding: 30px;
+}
+.pokemon * img {
+    height: 300px;
+    max-width: 100%;
+}
+.nombrePokemon {
+    background: white;
+    padding: 3px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: 1px solid black;
+}
